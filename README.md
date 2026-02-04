@@ -5,7 +5,7 @@ Detect AI agent tools (Cursor, Claude Code, Gemini CLI, Codex, Windsurf, GitHub 
 ## Installation
 
 ```bash
-npm install detect-agent
+npm install -g detect-agent
 ```
 
 ## CLI Usage
