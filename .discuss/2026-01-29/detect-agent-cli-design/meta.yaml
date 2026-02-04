@@ -1,0 +1,11 @@
+topic: detect-agent-cli-design
+created: '2026-01-28'
+current_round: 7
+config:
+  stale_threshold: 3
+decisions:
+- path: decisions/D01-core-api-design.md
+  name: D01-core-api-design.md
+  last_modified: '2026-01-28T16:33:58.671163+00:00'
+  last_updated_round: 7
+notes: []

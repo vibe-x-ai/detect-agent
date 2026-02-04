@@ -1,0 +1,11 @@
+topic: detect-agent-v2-roadmap
+created: '2026-01-28'
+current_round: 4
+config:
+  stale_threshold: 3
+decisions:
+- path: decisions/D01-v2-tool-expansion.md
+  name: D01-v2-tool-expansion.md
+  last_modified: '2026-01-28T16:41:57.925880+00:00'
+  last_updated_round: 3
+notes: []

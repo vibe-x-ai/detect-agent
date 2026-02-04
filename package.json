@@ -1,0 +1,50 @@
+{
+  "name": "@vibe-x/detect-agent",
+  "version": "1.0.0",
+  "description": "Detect AI agent tools (Cursor, Claude Code, Gemini CLI, Codex, Windsurf, GitHub Copilot, OpenCode, Qoder) and report their installation status and version",
+  "type": "module",
+  "bin": {
+    "detect-agent": "dist/cli.js"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cursor",
+    "claude-code",
+    "gemini",
+    "codex",
+    "windsurf",
+    "copilot",
+    "opencode",
+    "qoder",
+    "detection",
+    "cli"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "zhouhongxuan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.10",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}
